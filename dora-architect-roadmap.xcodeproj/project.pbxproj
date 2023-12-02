@@ -6,10 +6,33 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		86E5487A2B1B330D0042DABF /* BaseModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseModule.cpp; sourceTree = "<group>"; };
+		86E5487B2B1B330D0042DABF /* BaseModule.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseModule.hpp; sourceTree = "<group>"; };
+		86E5487C2B1B34D00042DABF /* BaseProduct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseProduct.cpp; sourceTree = "<group>"; };
+		86E5487D2B1B34D00042DABF /* BaseProduct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseProduct.hpp; sourceTree = "<group>"; };
+		86E5487E2B1B36630042DABF /* DoraModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraModule.cpp; sourceTree = "<group>"; };
+		86E5487F2B1B36630042DABF /* DoraModule.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraModule.hpp; sourceTree = "<group>"; };
+		86E548802B1B379E0042DABF /* DoraCacheModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraCacheModule.cpp; sourceTree = "<group>"; };
+		86E548812B1B379E0042DABF /* DoraCacheModule.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraCacheModule.hpp; sourceTree = "<group>"; };
+		86E548822B1B37C80042DABF /* DoraViewModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraViewModule.cpp; sourceTree = "<group>"; };
+		86E548832B1B37C80042DABF /* DoraViewModule.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraViewModule.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		86E548732B1B32BB0042DABF = {
 			isa = PBXGroup;
 			children = (
+				86E548822B1B37C80042DABF /* DoraViewModule.cpp */,
+				86E548832B1B37C80042DABF /* DoraViewModule.hpp */,
+				86E548802B1B379E0042DABF /* DoraCacheModule.cpp */,
+				86E548812B1B379E0042DABF /* DoraCacheModule.hpp */,
+				86E5487E2B1B36630042DABF /* DoraModule.cpp */,
+				86E5487F2B1B36630042DABF /* DoraModule.hpp */,
+				86E5487C2B1B34D00042DABF /* BaseProduct.cpp */,
+				86E5487D2B1B34D00042DABF /* BaseProduct.hpp */,
+				86E5487A2B1B330D0042DABF /* BaseModule.cpp */,
+				86E5487B2B1B330D0042DABF /* BaseModule.hpp */,
 			);
 			sourceTree = "<group>";
 		};
