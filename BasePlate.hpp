@@ -1,17 +1,17 @@
 //
-//  BaseModule.hpp
+//  BasePlate.hpp
 //  dora-architect-roadmap
 //
 //  Created by dora on 2023/12/2.
 //
 
-#ifndef BaseModule_hpp
-#define BaseModule_hpp
+#ifndef BasePlate_hpp
+#define BasePlate_hpp
 
 #include <stdio.h>
 #include <vector>
 
-class BaseModule {
+class BasePlate {
 protected:
     std::string name;
     int productNum;
@@ -19,4 +19,4 @@ public:
     virtual std::vector<BaseProduct*> GetProducts();
 };
 
-#endif /* BaseModule_hpp */
+#endif /* BasePlate_hpp */

@@ -1,19 +1,19 @@
 //
-//  DoraViewModule.hpp
+//  DoraViewPlate.hpp
 //  dora-architect-roadmap
 //
 //  Created by dora on 2023/12/2.
 //
 
-#ifndef DoraViewModule_hpp
-#define DoraViewModule_hpp
+#ifndef DoraViewPlate_hpp
+#define DoraViewPlate_hpp
 
 #include <stdio.h>
 
-class DoraViewModule : public BaseModule {
+class DoraViewPlate : public BasePlate {
     
 public:
     virtual std::vector<BaseProduct*> GetProducts() override;
 };
 
-#endif /* DoraViewModule_hpp */
+#endif /* DoraViewPlate_hpp */
