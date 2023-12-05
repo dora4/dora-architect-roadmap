@@ -13,8 +13,11 @@ int main(int argc, const char * argv[]) {
     auto dora = new DoraPlate();
     auto dcache = new DoraCachePlate();
     auto dview = new DoraViewPlate();
+    // 打印dora板块的信息
     dora->PrintProductsInfo();
+    // 打印dcache板块的信息
     dcache->PrintProductsInfo();
+    // 打印dview板块的信息
     dview->PrintProductsInfo();
     return 0;
 }

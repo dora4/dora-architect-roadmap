@@ -1,4 +1,5 @@
 //
+//  板块下的项目基类
 //  BaseProduct.hpp
 //  dora-architect-roadmap
 //
@@ -13,8 +14,11 @@
 class BaseProduct {
     
 public:
+    // 获取项目名称
     virtual std::string GetName() = 0;
+    // 获取项目介绍
     virtual std::string GetIntroduce() = 0;
+    // 获取示例代码
     virtual std::string GetSampleCode() = 0;
 };
 
