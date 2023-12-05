@@ -6,46 +6,129 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		86B9C6EA2B1F5F6D00873718 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6E92B1F5F6D00873718 /* main.cpp */; };
+		86B9C6FA2B1F615F00873718 /* DoraViewPlate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6F32B1F615F00873718 /* DoraViewPlate.cpp */; };
+		86B9C6FB2B1F615F00873718 /* BaseProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6F52B1F615F00873718 /* BaseProduct.cpp */; };
+		86B9C6FC2B1F615F00873718 /* BasePlate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6F62B1F615F00873718 /* BasePlate.cpp */; };
+		86B9C6FD2B1F615F00873718 /* DoraCachePlate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6F72B1F615F00873718 /* DoraCachePlate.cpp */; };
+		86B9C6FE2B1F615F00873718 /* DoraPlate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6F92B1F615F00873718 /* DoraPlate.cpp */; };
+		86B9C7022B1F6BB100873718 /* DoraSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C7002B1F6BB100873718 /* DoraSDK.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86B9C6E42B1F5F6D00873718 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		86E5487A2B1B330D0042DABF /* BasePlate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasePlate.cpp; sourceTree = "<group>"; };
-		86E5487B2B1B330D0042DABF /* BasePlate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BasePlate.hpp; sourceTree = "<group>"; };
-		86E5487C2B1B34D00042DABF /* BaseProduct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseProduct.cpp; sourceTree = "<group>"; };
-		86E5487D2B1B34D00042DABF /* BaseProduct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseProduct.hpp; sourceTree = "<group>"; };
-		86E5487E2B1B36630042DABF /* DoraPlate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraPlate.cpp; sourceTree = "<group>"; };
-		86E5487F2B1B36630042DABF /* DoraPlate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraPlate.hpp; sourceTree = "<group>"; };
-		86E548802B1B379E0042DABF /* DoraCachePlate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraCachePlate.cpp; sourceTree = "<group>"; };
-		86E548812B1B379E0042DABF /* DoraCachePlate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraCachePlate.hpp; sourceTree = "<group>"; };
-		86E548822B1B37C80042DABF /* DoraViewPlate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraViewPlate.cpp; sourceTree = "<group>"; };
-		86E548832B1B37C80042DABF /* DoraViewPlate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraViewPlate.hpp; sourceTree = "<group>"; };
+		86B9C6E62B1F5F6D00873718 /* dora-architect-roadmap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dora-architect-roadmap"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B9C6E92B1F5F6D00873718 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		86B9C6F02B1F615E00873718 /* DoraViewPlate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoraViewPlate.hpp; sourceTree = "<group>"; };
+		86B9C6F12B1F615E00873718 /* BaseProduct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseProduct.hpp; sourceTree = "<group>"; };
+		86B9C6F22B1F615E00873718 /* DoraCachePlate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoraCachePlate.hpp; sourceTree = "<group>"; };
+		86B9C6F32B1F615F00873718 /* DoraViewPlate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoraViewPlate.cpp; sourceTree = "<group>"; };
+		86B9C6F42B1F615F00873718 /* DoraPlate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoraPlate.hpp; sourceTree = "<group>"; };
+		86B9C6F52B1F615F00873718 /* BaseProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseProduct.cpp; sourceTree = "<group>"; };
+		86B9C6F62B1F615F00873718 /* BasePlate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasePlate.cpp; sourceTree = "<group>"; };
+		86B9C6F72B1F615F00873718 /* DoraCachePlate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoraCachePlate.cpp; sourceTree = "<group>"; };
+		86B9C6F82B1F615F00873718 /* BasePlate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BasePlate.hpp; sourceTree = "<group>"; };
+		86B9C6F92B1F615F00873718 /* DoraPlate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoraPlate.cpp; sourceTree = "<group>"; };
+		86B9C6FF2B1F65A600873718 /* dora-architect-roadmap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "dora-architect-roadmap.entitlements"; sourceTree = "<group>"; };
+		86B9C7002B1F6BB100873718 /* DoraSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraSDK.cpp; sourceTree = "<group>"; };
+		86B9C7012B1F6BB100873718 /* DoraSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraSDK.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		86B9C6E32B1F5F6D00873718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		86E548732B1B32BB0042DABF = {
+		86B9C6DD2B1F5F6D00873718 = {
 			isa = PBXGroup;
 			children = (
-				86E548822B1B37C80042DABF /* DoraViewPlate.cpp */,
-				86E548832B1B37C80042DABF /* DoraViewPlate.hpp */,
-				86E548802B1B379E0042DABF /* DoraCachePlate.cpp */,
-				86E548812B1B379E0042DABF /* DoraCachePlate.hpp */,
-				86E5487E2B1B36630042DABF /* DoraPlate.cpp */,
-				86E5487F2B1B36630042DABF /* DoraPlate.hpp */,
-				86E5487C2B1B34D00042DABF /* BaseProduct.cpp */,
-				86E5487D2B1B34D00042DABF /* BaseProduct.hpp */,
-				86E5487A2B1B330D0042DABF /* BasePlate.cpp */,
-				86E5487B2B1B330D0042DABF /* BasePlate.hpp */,
+				86B9C6E82B1F5F6D00873718 /* dora-architect-roadmap */,
+				86B9C6E72B1F5F6D00873718 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		86B9C6E72B1F5F6D00873718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B9C6E62B1F5F6D00873718 /* dora-architect-roadmap */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B9C6E82B1F5F6D00873718 /* dora-architect-roadmap */ = {
+			isa = PBXGroup;
+			children = (
+				86B9C6FF2B1F65A600873718 /* dora-architect-roadmap.entitlements */,
+				86B9C6F62B1F615F00873718 /* BasePlate.cpp */,
+				86B9C6F82B1F615F00873718 /* BasePlate.hpp */,
+				86B9C6F52B1F615F00873718 /* BaseProduct.cpp */,
+				86B9C6F12B1F615E00873718 /* BaseProduct.hpp */,
+				86B9C6F72B1F615F00873718 /* DoraCachePlate.cpp */,
+				86B9C6F22B1F615E00873718 /* DoraCachePlate.hpp */,
+				86B9C6F92B1F615F00873718 /* DoraPlate.cpp */,
+				86B9C6F42B1F615F00873718 /* DoraPlate.hpp */,
+				86B9C6F32B1F615F00873718 /* DoraViewPlate.cpp */,
+				86B9C6F02B1F615E00873718 /* DoraViewPlate.hpp */,
+				86B9C6E92B1F5F6D00873718 /* main.cpp */,
+				86B9C7002B1F6BB100873718 /* DoraSDK.cpp */,
+				86B9C7012B1F6BB100873718 /* DoraSDK.hpp */,
+			);
+			path = "dora-architect-roadmap";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXNativeTarget section */
+		86B9C6E52B1F5F6D00873718 /* dora-architect-roadmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B9C6ED2B1F5F6D00873718 /* Build configuration list for PBXNativeTarget "dora-architect-roadmap" */;
+			buildPhases = (
+				86B9C6E22B1F5F6D00873718 /* Sources */,
+				86B9C6E32B1F5F6D00873718 /* Frameworks */,
+				86B9C6E42B1F5F6D00873718 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dora-architect-roadmap";
+			productName = "dora-architect-roadmap";
+			productReference = 86B9C6E62B1F5F6D00873718 /* dora-architect-roadmap */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
-		86E548742B1B32BB0042DABF /* Project object */ = {
+		86B9C6DE2B1F5F6D00873718 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					86B9C6E52B1F5F6D00873718 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
 			};
-			buildConfigurationList = 86E548772B1B32BB0042DABF /* Build configuration list for PBXProject "dora-architect-roadmap" */;
+			buildConfigurationList = 86B9C6E12B1F5F6D00873718 /* Build configuration list for PBXProject "dora-architect-roadmap" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -53,40 +136,191 @@
 				en,
 				Base,
 			);
-			mainGroup = 86E548732B1B32BB0042DABF;
+			mainGroup = 86B9C6DD2B1F5F6D00873718;
+			productRefGroup = 86B9C6E72B1F5F6D00873718 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				86B9C6E52B1F5F6D00873718 /* dora-architect-roadmap */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		86B9C6E22B1F5F6D00873718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B9C7022B1F6BB100873718 /* DoraSDK.cpp in Sources */,
+				86B9C6EA2B1F5F6D00873718 /* main.cpp in Sources */,
+				86B9C6FB2B1F615F00873718 /* BaseProduct.cpp in Sources */,
+				86B9C6FA2B1F615F00873718 /* DoraViewPlate.cpp in Sources */,
+				86B9C6FD2B1F615F00873718 /* DoraCachePlate.cpp in Sources */,
+				86B9C6FE2B1F615F00873718 /* DoraPlate.cpp in Sources */,
+				86B9C6FC2B1F615F00873718 /* BasePlate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
-		86E548782B1B32BB0042DABF /* Debug */ = {
+		86B9C6EB2B1F5F6D00873718 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		86E548792B1B32BB0042DABF /* Release */ = {
+		86B9C6EC2B1F5F6D00873718 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86B9C6EE2B1F5F6D00873718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "dora-architect-roadmap/dora-architect-roadmap.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWA6B39AT3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorachat.arch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86B9C6EF2B1F5F6D00873718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "dora-architect-roadmap/dora-architect-roadmap.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWA6B39AT3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorachat.arch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86E548772B1B32BB0042DABF /* Build configuration list for PBXProject "dora-architect-roadmap" */ = {
+		86B9C6E12B1F5F6D00873718 /* Build configuration list for PBXProject "dora-architect-roadmap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86E548782B1B32BB0042DABF /* Debug */,
-				86E548792B1B32BB0042DABF /* Release */,
+				86B9C6EB2B1F5F6D00873718 /* Debug */,
+				86B9C6EC2B1F5F6D00873718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B9C6ED2B1F5F6D00873718 /* Build configuration list for PBXNativeTarget "dora-architect-roadmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B9C6EE2B1F5F6D00873718 /* Debug */,
+				86B9C6EF2B1F5F6D00873718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 86E548742B1B32BB0042DABF /* Project object */;
+	rootObject = 86B9C6DE2B1F5F6D00873718 /* Project object */;
 }
