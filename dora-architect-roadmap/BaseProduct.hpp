@@ -8,14 +8,14 @@
 #ifndef BaseProduct_hpp
 #define BaseProduct_hpp
 
-#include <stdio.h>
+#include <string>
 
 class BaseProduct {
     
 public:
-    virtual std::string GetName();
-    virtual std::string GetIntroduce();
-    virtual std::string GetSampleCode();
+    virtual std::string GetName() = 0;
+    virtual std::string GetIntroduce() = 0;
+    virtual std::string GetSampleCode() = 0;
 };
 
 #endif /* BaseProduct_hpp */

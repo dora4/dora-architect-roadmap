@@ -8,15 +8,19 @@
 #ifndef BasePlate_hpp
 #define BasePlate_hpp
 
-#include <stdio.h>
+#include <string>
 #include <vector>
+#include "BaseProduct.hpp"
 
 class BasePlate {
+
 protected:
     std::string name;
     int productNum;
 public:
-    virtual std::vector<BaseProduct*> GetProducts();
+    virtual std::vector<BaseProduct*> GetProducts() = 0;
+
+    virtual void PrintProductsInfo();
 };
 
 #endif /* BasePlate_hpp */

@@ -6,9 +6,11 @@
 //
 
 #include "DoraViewPlate.hpp"
+#include "DoraSDK.hpp"
 #include <vector>
 
 std::vector<BaseProduct*> DoraViewPlate::GetProducts() {
     std::vector<BaseProduct*> products;
+    products.push_back(new DoraSDK());
     return products;
 }

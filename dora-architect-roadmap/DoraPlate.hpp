@@ -8,7 +8,9 @@
 #ifndef DoraPlate_hpp
 #define DoraPlate_hpp
 
-#include <stdio.h>
+#include <vector>
+#include "BaseProduct.hpp"
+#include "BasePlate.hpp"
 
 class DoraPlate : public BasePlate {
     
