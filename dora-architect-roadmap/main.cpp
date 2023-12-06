@@ -19,5 +19,8 @@ int main(int argc, const char * argv[]) {
     dcache->PrintProductsInfo();
     // 打印dview板块的信息
     dview->PrintProductsInfo();
+    delete dora;
+    delete dcache;
+    delete dview;
     return 0;
 }

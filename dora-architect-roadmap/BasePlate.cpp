@@ -14,6 +14,6 @@ void BasePlate::PrintProductsInfo() {
         std::cout << "SDK名称：" << (*i)->GetName() << std::endl;
         std::cout << "SDK介绍：" << (*i)->GetIntroduce() << std::endl;
         std::cout << "示例代码：\n" << (*i)->GetSampleCode() << std::endl;
+        std::cout << "----------" << std::endl;
     }
-    std::cout << "----------" << std::endl;
 }
