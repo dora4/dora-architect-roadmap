@@ -7,14 +7,14 @@
 
 #include "DoraViewSkinsSDK.hpp"
 
-std::string DoraViewSkinsSDK::GetName() {
+std::string dora::DoraViewSkinsSDK::GetName() {
     return "dview-skins";
 }
 
-std::string DoraViewSkinsSDK::GetIntroduce() {
+std::string dora::DoraViewSkinsSDK::GetIntroduce() {
     return "一款好用的Android换肤框架";
 }
 
-std::string DoraViewSkinsSDK::GetSampleCode() {
+std::string dora::DoraViewSkinsSDK::GetSampleCode() {
     return "https://github.com/dora4/dview-skins/blob/main/README.md";
 }

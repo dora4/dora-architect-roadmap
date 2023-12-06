@@ -13,10 +13,13 @@
 #include "BaseProduct.hpp"
 #include "BasePlate.hpp"
 
-class DoraViewPlate : public BasePlate {
-    
-public:
-    virtual std::vector<BaseProduct*> GetProducts() override;
-};
+namespace dora {
+
+    class DoraViewPlate : public BasePlate {
+        
+    public:
+        virtual std::vector<BaseProduct*> GetProducts() override;
+    };
+}
 
 #endif /* DoraViewPlate_hpp */

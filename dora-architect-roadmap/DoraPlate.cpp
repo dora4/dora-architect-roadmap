@@ -11,9 +11,9 @@
 #include "DoraSDK.hpp"
 #include "DoraFirebaseSDK.hpp"
 
-std::vector<BaseProduct*> DoraPlate::GetProducts() {
-    std::vector<BaseProduct*> products;
-    products.push_back(new DoraSDK());
-    products.push_back(new DoraFirebaseSDK());
+std::vector<dora::BaseProduct*> dora::DoraPlate::GetProducts() {
+    std::vector<dora::BaseProduct*> products;
+    products.push_back(new dora::DoraSDK());
+    products.push_back(new dora::DoraFirebaseSDK());
     return products;
 }

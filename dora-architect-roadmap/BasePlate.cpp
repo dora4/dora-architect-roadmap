@@ -8,9 +8,9 @@
 #include "BasePlate.hpp"
 #include <iostream>
 
-void BasePlate::PrintProductsInfo() {
-    std::vector<BaseProduct*> prods = GetProducts();
-    for (std::vector<BaseProduct*>::const_iterator i = prods.begin(); i != prods.end(); ++i) {
+void dora::BasePlate::PrintProductsInfo() {
+    std::vector<dora::BaseProduct*> prods = GetProducts();
+    for (std::vector<dora::BaseProduct*>::const_iterator i = prods.begin(); i != prods.end(); ++i) {
         std::cout << "SDK名称：" << (*i)->GetName() << std::endl;
         std::cout << "SDK介绍：" << (*i)->GetIntroduce() << std::endl;
         std::cout << "示例代码：\n" << (*i)->GetSampleCode() << std::endl;

@@ -11,11 +11,14 @@
 #include "BaseProduct.hpp"
 #include <string>
 
-class DoraViewSkinsSDK : public BaseProduct {
-public:
-    virtual std::string GetName() override;
-    virtual std::string GetIntroduce() override;
-    virtual std::string GetSampleCode() override;
-};
+namespace dora {
+
+    class DoraViewSkinsSDK : public BaseProduct {
+    public:
+        virtual std::string GetName() override;
+        virtual std::string GetIntroduce() override;
+        virtual std::string GetSampleCode() override;
+    };
+}
 
 #endif /* DoraViewSkinsSDK_hpp */

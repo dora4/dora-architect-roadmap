@@ -9,8 +9,8 @@
 #include <vector>
 #include "DoraViewSkinsSDK.hpp"
 
-std::vector<BaseProduct*> DoraViewPlate::GetProducts() {
-    std::vector<BaseProduct*> products;
-    products.push_back(new DoraViewSkinsSDK());
+std::vector<dora::BaseProduct*> dora::DoraViewPlate::GetProducts() {
+    std::vector<dora::BaseProduct*> products;
+    products.push_back(new dora::DoraViewSkinsSDK());
     return products;
 }

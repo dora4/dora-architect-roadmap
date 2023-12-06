@@ -10,8 +10,8 @@
 #include <vector>
 #include "DoraCacheSDK.hpp"
 
-std::vector<BaseProduct*> DoraCachePlate::GetProducts() {
-    std::vector<BaseProduct*> products;
-    products.push_back(new DoraCacheSDK());
+std::vector<dora::BaseProduct*> dora::DoraCachePlate::GetProducts() {
+    std::vector<dora::BaseProduct*> products;
+    products.push_back(new dora::DoraCacheSDK());
     return products;
 }

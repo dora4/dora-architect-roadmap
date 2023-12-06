@@ -13,15 +13,18 @@
 #include <vector>
 #include "BaseProduct.hpp"
 
-class BasePlate {
+namespace dora {
 
-protected:
-    std::string name;
-    int productNum;
-public:
-    virtual std::vector<BaseProduct*> GetProducts() = 0;
+    class BasePlate {
 
-    virtual void PrintProductsInfo();
-};
+    protected:
+        std::string name;
+        int productNum;
+    public:
+        virtual std::vector<BaseProduct*> GetProducts() = 0;
+
+        virtual void PrintProductsInfo();
+    };
+}
 
 #endif /* BasePlate_hpp */

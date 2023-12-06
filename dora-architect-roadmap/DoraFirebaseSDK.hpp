@@ -11,11 +11,14 @@
 #include "BaseProduct.hpp"
 #include <string>
 
-class DoraFirebaseSDK : public BaseProduct {
-public:
-    virtual std::string GetName() override;
-    virtual std::string GetIntroduce() override;
-    virtual std::string GetSampleCode() override;
-};
+namespace dora {
+
+    class DoraFirebaseSDK : public BaseProduct {
+    public:
+        virtual std::string GetName() override;
+        virtual std::string GetIntroduce() override;
+        virtual std::string GetSampleCode() override;
+    };
+}
 
 #endif /* DoraFirebaseSDK_hpp */

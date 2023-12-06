@@ -11,15 +11,17 @@
 
 #include <string>
 
-class BaseProduct {
-    
-public:
-    // 获取项目名称
-    virtual std::string GetName() = 0;
-    // 获取项目介绍
-    virtual std::string GetIntroduce() = 0;
-    // 获取示例代码
-    virtual std::string GetSampleCode() = 0;
-};
+namespace dora {
 
+    class BaseProduct {
+        
+    public:
+        // 获取项目名称
+        virtual std::string GetName() = 0;
+        // 获取项目介绍
+        virtual std::string GetIntroduce() = 0;
+        // 获取示例代码
+        virtual std::string GetSampleCode() = 0;
+    };
+}
 #endif /* BaseProduct_hpp */
