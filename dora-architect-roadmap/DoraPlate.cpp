@@ -18,6 +18,7 @@
 #include "DoraBaseRecyclerViewAdapterHelperSDK.hpp"
 #include "DoraDaggerSDK.hpp"
 #include "DoraSmartRefreshLayoutSDK.hpp"
+#include "DoraOSSSDK.hpp"
 
 std::vector<dora::BaseProduct*> dora::DoraPlate::GetProducts() {
     std::vector<dora::BaseProduct*> products;
@@ -31,5 +32,6 @@ std::vector<dora::BaseProduct*> dora::DoraPlate::GetProducts() {
     products.push_back(new dora::DoraBaseRecyclerViewAdapterHelperSDK());
     products.push_back(new dora::DoraDaggerSDK());
     products.push_back(new dora::DoraSmartRefreshLayoutSDK());
+    products.push_back(new dora::DoraOSSSDK());
     return products;
 }

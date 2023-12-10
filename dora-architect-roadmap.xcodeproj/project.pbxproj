@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863704522B2603BC00695026 /* DoraOSSSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 863704502B2603BC00695026 /* DoraOSSSDK.cpp */; };
 		863884262B255BF200FE1C80 /* DoraARouterSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 863884242B255BF200FE1C80 /* DoraARouterSDK.cpp */; };
 		863884292B255CA500FE1C80 /* DoraApolloSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 863884272B255CA500FE1C80 /* DoraApolloSDK.cpp */; };
 		8638842C2B255D2D00FE1C80 /* DoraPgyerSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8638842A2B255D2D00FE1C80 /* DoraPgyerSDK.cpp */; };
@@ -53,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		863704502B2603BC00695026 /* DoraOSSSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraOSSSDK.cpp; sourceTree = "<group>"; };
+		863704512B2603BC00695026 /* DoraOSSSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraOSSSDK.hpp; sourceTree = "<group>"; };
 		863884242B255BF200FE1C80 /* DoraARouterSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraARouterSDK.cpp; sourceTree = "<group>"; };
 		863884252B255BF200FE1C80 /* DoraARouterSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraARouterSDK.hpp; sourceTree = "<group>"; };
 		863884272B255CA500FE1C80 /* DoraApolloSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraApolloSDK.cpp; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 				8638845E2B25631C00FE1C80 /* DoraViewFlexibleScrollViewSDK.hpp */,
 				863884602B25633700FE1C80 /* DoraViewColorsSDK.cpp */,
 				863884612B25633700FE1C80 /* DoraViewColorsSDK.hpp */,
+				863704502B2603BC00695026 /* DoraOSSSDK.cpp */,
+				863704512B2603BC00695026 /* DoraOSSSDK.hpp */,
 			);
 			path = "dora-architect-roadmap";
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				86B9C6FD2B1F615F00873718 /* DoraCachePlate.cpp in Sources */,
 				869D90762B20CBCA00BF4716 /* DoraFirebaseSDK.cpp in Sources */,
 				8638845F2B25631C00FE1C80 /* DoraViewFlexibleScrollViewSDK.cpp in Sources */,
+				863704522B2603BC00695026 /* DoraOSSSDK.cpp in Sources */,
 				869D907A2B20CFF700BF4716 /* DoraCacheSDK.cpp in Sources */,
 				86B9C6FE2B1F615F00873718 /* DoraPlate.cpp in Sources */,
 				86B9C6FC2B1F615F00873718 /* BasePlate.cpp in Sources */,
