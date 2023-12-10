@@ -18,3 +18,7 @@ std::string dora::DoraEventBusSDK::GetIntroduce() {
 std::string dora::DoraEventBusSDK::GetSampleCode() {
     return "https://github.com/dora4/dora-eventbus-support/blob/main/README.md";
 }
+
+dora::CompleteStatus dora::DoraEventBusSDK::GetCompleteStatus() {
+    return dora::CompleteStatus::CS_DEV;
+}

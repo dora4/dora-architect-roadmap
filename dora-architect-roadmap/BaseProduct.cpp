@@ -6,3 +6,7 @@
 //
 
 #include "BaseProduct.hpp"
+
+dora::CompleteStatus dora::BaseProduct::GetCompleteStatus() {
+    return dora::CompleteStatus::CS_SCHEDULE;
+}

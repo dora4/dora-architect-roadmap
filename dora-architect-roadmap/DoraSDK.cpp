@@ -18,3 +18,7 @@ std::string dora::DoraSDK::GetIntroduce() {
 std::string dora::DoraSDK::GetSampleCode() {
     return "https://github.com/dora4/dora/blob/master/README.zh-CN.md";
 }
+
+dora::CompleteStatus dora::DoraSDK::GetCompleteStatus() {
+    return dora::CompleteStatus::CS_DEV;
+}

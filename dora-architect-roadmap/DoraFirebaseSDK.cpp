@@ -18,3 +18,7 @@ std::string dora::DoraFirebaseSDK::GetIntroduce() {
 std::string dora::DoraFirebaseSDK::GetSampleCode() {
     return "https://github.com/dora4/dora-firebase-support/blob/master/README.md";
 }
+
+dora::CompleteStatus dora::DoraFirebaseSDK::GetCompleteStatus() {
+    return dora::CompleteStatus::CS_DEV;
+}

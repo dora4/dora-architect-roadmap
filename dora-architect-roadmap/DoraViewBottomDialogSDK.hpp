@@ -1,19 +1,19 @@
 //
-//  DoraCacheSDK.hpp
+//  DoraViewBottomDialogSDK.hpp
 //  dora-architect-roadmap
 //
-//  Created by dora on 2023/12/6.
+//  Created by dora on 2023/12/10.
 //
 
-#ifndef DoraCacheSDK_hpp
-#define DoraCacheSDK_hpp
+#ifndef DoraViewBottomDialogSDK_hpp
+#define DoraViewBottomDialogSDK_hpp
 
 #include "BaseProduct.hpp"
 #include <string>
 
 namespace dora {
 
-    class DoraCacheSDK : public BaseProduct {
+    class DoraViewBottomDialogSDK : public BaseProduct {
     public:
         virtual std::string GetName() override;
         virtual std::string GetIntroduce() override;
@@ -21,5 +21,4 @@ namespace dora {
         virtual CompleteStatus GetCompleteStatus() override;
     };
 }
-
-#endif /* DoraCacheSDK_hpp */
+#endif /* DoraViewBottomDialogSDK_hpp */

@@ -18,6 +18,7 @@ namespace dora {
         virtual std::string GetName() override;
         virtual std::string GetIntroduce() override;
         virtual std::string GetSampleCode() override;
+        virtual CompleteStatus GetCompleteStatus() override;
     };
 }
 

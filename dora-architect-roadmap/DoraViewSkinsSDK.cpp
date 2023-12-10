@@ -18,3 +18,7 @@ std::string dora::DoraViewSkinsSDK::GetIntroduce() {
 std::string dora::DoraViewSkinsSDK::GetSampleCode() {
     return "https://github.com/dora4/dview-skins/blob/main/README.md";
 }
+
+dora::CompleteStatus dora::DoraViewSkinsSDK::GetCompleteStatus() {
+    return dora::CompleteStatus::CS_DEV;
+}

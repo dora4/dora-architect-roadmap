@@ -18,3 +18,7 @@ std::string dora::DoraCacheSDK::GetIntroduce() {
 std::string dora::DoraCacheSDK::GetSampleCode() {
     return "https://github.com/dora4/dcache-android/blob/master/README.md";
 }
+
+dora::CompleteStatus dora::DoraCacheSDK::GetCompleteStatus() {
+    return dora::CompleteStatus::CS_DEV;
+}
