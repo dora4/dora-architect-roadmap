@@ -20,5 +20,5 @@ std::string dora::DoraEventBusSDK::GetSampleCode() {
 }
 
 dora::CompleteStatus dora::DoraEventBusSDK::GetCompleteStatus() {
-    return dora::CompleteStatus::CS_DEV;
+    return dora::CompleteStatus::CS_COMPLETED;
 }
