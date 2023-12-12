@@ -17,7 +17,7 @@ namespace dora {
     enum CompleteStatus {
         CS_SCHEDULE,    // 规划中，还未开发
         CS_DEV,         // 开发中
-        CS_COMPLETED   // 开发完成
+        CS_COMPLETED   // 开发完成，停止维护
     };
 
     class BaseProduct {
