@@ -33,6 +33,7 @@
 		869D907A2B20CFF700BF4716 /* DoraCacheSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869D90782B20CFF700BF4716 /* DoraCacheSDK.cpp */; };
 		869D907D2B20D10800BF4716 /* DoraViewSkinsSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869D907B2B20D10800BF4716 /* DoraViewSkinsSDK.cpp */; };
 		869D90822B237B1900BF4716 /* DoraEventBusSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869D90802B237B1900BF4716 /* DoraEventBusSDK.cpp */; };
+		869E0E942B9C77AD00B4D4D7 /* DoraOpenInstallSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869E0E922B9C77AD00B4D4D7 /* DoraOpenInstallSDK.cpp */; };
 		86B9C6EA2B1F5F6D00873718 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6E92B1F5F6D00873718 /* main.cpp */; };
 		86B9C6FA2B1F615F00873718 /* DoraViewPlate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6F32B1F615F00873718 /* DoraViewPlate.cpp */; };
 		86B9C6FB2B1F615F00873718 /* BaseProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B9C6F52B1F615F00873718 /* BaseProduct.cpp */; };
@@ -107,6 +108,8 @@
 		869D907C2B20D10800BF4716 /* DoraViewSkinsSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraViewSkinsSDK.hpp; sourceTree = "<group>"; };
 		869D90802B237B1900BF4716 /* DoraEventBusSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraEventBusSDK.cpp; sourceTree = "<group>"; };
 		869D90812B237B1900BF4716 /* DoraEventBusSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraEventBusSDK.hpp; sourceTree = "<group>"; };
+		869E0E922B9C77AD00B4D4D7 /* DoraOpenInstallSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraOpenInstallSDK.cpp; sourceTree = "<group>"; };
+		869E0E932B9C77AD00B4D4D7 /* DoraOpenInstallSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraOpenInstallSDK.hpp; sourceTree = "<group>"; };
 		86B9C6E62B1F5F6D00873718 /* dora-architect-roadmap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dora-architect-roadmap"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B9C6E92B1F5F6D00873718 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		86B9C6F02B1F615E00873718 /* DoraViewPlate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoraViewPlate.hpp; sourceTree = "<group>"; };
@@ -220,6 +223,8 @@
 				863704512B2603BC00695026 /* DoraOSSSDK.hpp */,
 				866FA3B02B98B1E5001062E4 /* DoraJPushSDK.cpp */,
 				866FA3B12B98B1E5001062E4 /* DoraJPushSDK.hpp */,
+				869E0E922B9C77AD00B4D4D7 /* DoraOpenInstallSDK.cpp */,
+				869E0E932B9C77AD00B4D4D7 /* DoraOpenInstallSDK.hpp */,
 			);
 			path = "dora-architect-roadmap";
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				866FA3B22B98B1E5001062E4 /* DoraJPushSDK.cpp in Sources */,
 				863884322B255E2F00FE1C80 /* DoraBaseRecyclerViewAdapterHelperSDK.cpp in Sources */,
 				863884412B2560BA00FE1C80 /* DoraCacheGreenDaoSDK.cpp in Sources */,
+				869E0E942B9C77AD00B4D4D7 /* DoraOpenInstallSDK.cpp in Sources */,
 				863884262B255BF200FE1C80 /* DoraARouterSDK.cpp in Sources */,
 				8638842C2B255D2D00FE1C80 /* DoraPgyerSDK.cpp in Sources */,
 				86B9C7022B1F6BB100873718 /* DoraSDK.cpp in Sources */,
