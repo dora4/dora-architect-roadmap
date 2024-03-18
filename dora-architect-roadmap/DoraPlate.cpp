@@ -20,6 +20,9 @@
 #include "DoraSmartRefreshLayoutSDK.hpp"
 #include "DoraOSSSDK.hpp"
 #include "DoraJPushSDK.hpp"
+#include "DoraOpenInstallSDK.hpp"
+#include "DoraBuglySDK.hpp"
+#include "DoraGeetestSDK.hpp"
 
 std::vector<dora::BaseProduct*> dora::DoraPlate::GetProducts() {
     std::vector<dora::BaseProduct*> products;
@@ -35,5 +38,8 @@ std::vector<dora::BaseProduct*> dora::DoraPlate::GetProducts() {
     products.push_back(new dora::DoraSmartRefreshLayoutSDK());
     products.push_back(new dora::DoraOSSSDK());
     products.push_back(new dora::DoraJPushSDK());
+    products.push_back(new dora::DoraOpenInstallSDK());
+    products.push_back(new dora::DoraBuglySDK());
+    products.push_back(new dora::DoraGeetestSDK());
     return products;
 }

@@ -28,6 +28,7 @@
 		8638845C2B2562EC00FE1C80 /* DoraViewEmptyLayoutSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8638845A2B2562EC00FE1C80 /* DoraViewEmptyLayoutSDK.cpp */; };
 		8638845F2B25631C00FE1C80 /* DoraViewFlexibleScrollViewSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8638845D2B25631C00FE1C80 /* DoraViewFlexibleScrollViewSDK.cpp */; };
 		863884622B25633700FE1C80 /* DoraViewColorsSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 863884602B25633700FE1C80 /* DoraViewColorsSDK.cpp */; };
+		86425BE72BA8A5D3008CD34E /* DoraGeetestSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86425BE52BA8A5D3008CD34E /* DoraGeetestSDK.cpp */; };
 		866FA3B22B98B1E5001062E4 /* DoraJPushSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 866FA3B02B98B1E5001062E4 /* DoraJPushSDK.cpp */; };
 		869D90762B20CBCA00BF4716 /* DoraFirebaseSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869D90742B20CBCA00BF4716 /* DoraFirebaseSDK.cpp */; };
 		869D907A2B20CFF700BF4716 /* DoraCacheSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 869D90782B20CFF700BF4716 /* DoraCacheSDK.cpp */; };
@@ -99,6 +100,8 @@
 		8638845E2B25631C00FE1C80 /* DoraViewFlexibleScrollViewSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraViewFlexibleScrollViewSDK.hpp; sourceTree = "<group>"; };
 		863884602B25633700FE1C80 /* DoraViewColorsSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraViewColorsSDK.cpp; sourceTree = "<group>"; };
 		863884612B25633700FE1C80 /* DoraViewColorsSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraViewColorsSDK.hpp; sourceTree = "<group>"; };
+		86425BE52BA8A5D3008CD34E /* DoraGeetestSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraGeetestSDK.cpp; sourceTree = "<group>"; };
+		86425BE62BA8A5D3008CD34E /* DoraGeetestSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraGeetestSDK.hpp; sourceTree = "<group>"; };
 		866FA3B02B98B1E5001062E4 /* DoraJPushSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraJPushSDK.cpp; sourceTree = "<group>"; };
 		866FA3B12B98B1E5001062E4 /* DoraJPushSDK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoraJPushSDK.hpp; sourceTree = "<group>"; };
 		869D90742B20CBCA00BF4716 /* DoraFirebaseSDK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoraFirebaseSDK.cpp; sourceTree = "<group>"; };
@@ -230,6 +233,8 @@
 				869E0E932B9C77AD00B4D4D7 /* DoraOpenInstallSDK.hpp */,
 				86AEFA322BA4C3D700A16809 /* DoraBuglySDK.cpp */,
 				86AEFA332BA4C3D700A16809 /* DoraBuglySDK.hpp */,
+				86425BE52BA8A5D3008CD34E /* DoraGeetestSDK.cpp */,
+				86425BE62BA8A5D3008CD34E /* DoraGeetestSDK.hpp */,
 			);
 			path = "dora-architect-roadmap";
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				863884262B255BF200FE1C80 /* DoraARouterSDK.cpp in Sources */,
 				8638842C2B255D2D00FE1C80 /* DoraPgyerSDK.cpp in Sources */,
 				86B9C7022B1F6BB100873718 /* DoraSDK.cpp in Sources */,
+				86425BE72BA8A5D3008CD34E /* DoraGeetestSDK.cpp in Sources */,
 				863884592B2562CC00FE1C80 /* DoraViewLoadingDialogSDK.cpp in Sources */,
 				8638844A2B25620B00FE1C80 /* DoraViewAvatarSDK.cpp in Sources */,
 				8638845C2B2562EC00FE1C80 /* DoraViewEmptyLayoutSDK.cpp in Sources */,
